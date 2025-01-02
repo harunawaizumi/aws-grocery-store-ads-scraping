@@ -6,7 +6,7 @@
 - Copy the file to S3
 - Get AccessID from System Manager to allow Lambda access to SNS
 - Send a message to SNS
-  ![lambda_chart.png](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/lambda_chart.png)
+  ![lambda_chart.png](https://github.com/harunawaizumi/aws-grocery-store-ads-scraping/blob/main/lambda_chart.png)
 
 2. Create SNS
 
@@ -16,6 +16,6 @@
 
 - Set a crontab to run on a specific time
 - Run the Lambda function on every Saturday
-  ![eventbridge.png](https://github.com/harunawaizumi/ffang-interviews-preparations/blob/main/eventbridge.png)
+  ![eventbridge.png](https://github.com/harunawaizumi/aws-grocery-store-ads-scraping/blob/main/eventbridge.png)
 
 After you run the function, you should see the result on Lambda CloudWatch.
